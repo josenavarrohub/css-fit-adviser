@@ -1,10 +1,10 @@
 # 💪🏻 FIT ADVISER 💪🏻
 Web design for a fictitious company called "FIT ADVISER".
 
-[![FIT ADVISER](https://github.com/josenavarrohub/css-fit-adviser/blob/main/demo.png?raw=true)](https://josenavarrohub.github.io/css-fit-adviser/)
+[![FIT ADVISER](https://github.com/josenavarrohub/css-fit-adviser/blob/main/demo.png?raw=true)](https://fitadviser.netlify.app/)
 
 ## Demo
-[https://josenavarrohub.github.io/css-fit-adviser/](https://josenavarrohub.github.io/css-fit-adviser/)
+[https://fitadviser.netlify.app/](https://fitadviser.netlify.app/)
 
 ## Features
 * Mobile menu
@@ -23,6 +23,9 @@ Web design for a fictitious company called "FIT ADVISER".
 * [CSS flexible box layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
 * [CSS grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 * [Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Deployment
+* [netlify](https://www.netlify.com/)
 
 ## Colour palette and icons
 * Icons: [ionicons](https://ionic.io/ionicons)
