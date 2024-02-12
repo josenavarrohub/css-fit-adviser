@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Personal trainings designed with AI. Gain strength and increase muscle mass.">
+	<title>FIT ADVISER</title>
+	<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+
+	<!-- CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;700&display=swap"
+		rel="stylesheet">
+	<link href="css/mobile-first.css" rel="stylesheet">
+	<link href="css/media-queries.css" rel="stylesheet">
+
+	<!-- JS -->
+
+	<!-- Icons -->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+	<!-- Script -->
+	<script src="js/script.js" defer></script>
+</head>
+
+<body>
+	<!-- Module: Header -->
+	<header class="m-header">
+		<!-- Component: Navigation -->
+		<nav class="c-navigation">
+			<div class="c-navigation__container u-container u-container--3xl">
+				<!-- Logo -->
+				<div class="c-navigation__logo">
+					<a href="#" class="c-navigation__logo-link"><img class="c-navigation__logo-img" src="img/logo.svg"
+							alt="FIT ADVISER" width="273" height="32"></a>
+				</div>
+
+				<!-- Menu -->
+				<div class="c-navigation__menu">
+					<ul class="c-navigation__menu-list">
+						<li><a class="c-navigation__menu-item" href="#">Home</a></li>
+						<li>
+							<a class="c-navigation__menu-item" href="#method">Method</a>
+						</li>
+						<li>
+							<a class="c-navigation__menu-item" href="#recipes">Recipes</a>
+						</li>
+						<li>
+							<a class="c-navigation__menu-item" href="#testimonials">Testimonials</a>
+						</li>
+						<li>
+							<a class="c-navigation__menu-item" href="#pricing">Pricing</a>
+						</li>
+						<li>
+							<a class="c-navigation__menu-item c-btn" href="#cta">Sign up</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Mobile button -->
+				<button class="c-navigation__mobile-btn">
+					<ion-icon class="c-navigation__mobile-icon" name="menu-outline"></ion-icon>
+					<ion-icon class="c-navigation__mobile-icon" name="close-outline"></ion-icon>
+				</button>
+			</div>
+		</nav>
+
+		<!-- Component: Hero -->
+		<section class="c-hero u-section">
+			<div class="c-hero__container u-container u-container--hero">
+				<div class="c-hero__content">
+					<!-- Heading -->
+					<h1 class="c-hero__heading">Personal trainings designed with AI</h1>
+
+					<!-- Description -->
+					<p class="c-hero__description">
+						Gain strength and increase muscle mass with our advanced
+						methodology. Develop your full potential as an athlete.
+					</p>
+
+					<!-- Buttons -->
+					<p class="c-hero__buttons">
+						<a class="c-btn c-btn--lg" href="#pricing">Design your training</a>
+						<a class="c-btn c-btn--outline c-btn--lg" href="#method">More info</a>
+					</p>
+
+					<!-- Clients -->
+					<div class="c-hero__clients">
+						<div class="c-hero__clients-photos">
+							<img class="c-hero__clients-photo" src="img/clients/client-1.jpg" alt="Client photo"
+								width="48" height="48">
+							<img class="c-hero__clients-photo" src="img/clients/client-2.jpg" alt="Client photo"
+								width="48" height="48">
+							<img class="c-hero__clients-photo" src="img/clients/client-3.jpg" alt="Client photo"
+								width="48" height="48">
+							<img class="c-hero__clients-photo" src="img/clients/client-4.jpg" alt="Client photo"
+								width="48" height="48">
+							<img class="c-hero__clients-photo" src="img/clients/client-5.jpg" alt="Client photo"
+								width="48" height="48">
+							<img class="c-hero__clients-photo" src="img/clients/client-6.jpg" alt="Client photo"
+								width="48" height="48">
+						</div>
+						<p class="c-hero__clients-text">
+							More than
+							<strong class="u-primary-text">40,000 athletes</strong>
+							subscribed!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+
+	<!-- Module: Main -->
+	<main class="m-main">
+		<!-- Component: Featured in -->
+		<section id="featuredIn" class="c-featured-in u-section u-section--compact u-background-lighter">
+			<div class="u-container u-container--2xl">
+				<h2 class="c-subheading c-subheading--alone">Featured in</h2>
+				<ul class="c-featured-in__list">
+					<li>
+						<img height="32" width="158" src="img/featured-in/mens-health.svg" alt="Men's Health logo">
+					</li>
+					<li>
+						<img height="32" width="128" src="img/featured-in/forbes.svg" alt="Forbes logo">
+					</li>
+					<li>
+						<img height="32" width="194" src="img/featured-in/elitefts.svg" alt="EliteFTS logo">
+					</li>
+					<li>
+						<img height="32" width="198" src="img/featured-in/healthline.svg" alt="Healthline logo">
+					</li>
+					<li>
+						<img height="32" width="151" src="img/featured-in/barbend.svg" alt="Barbend logo">
+					</li>
+					<li>
+						<img height="32" width="223" src="img/featured-in/techcrunch.svg" alt="TechCrunch logo">
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- Component: Method -->
+		<section id="method" class="c-method u-section u-background-band">
+			<div class="u-container u-container--2xl">
+				<div class="c-subheading">Our method</div>
+				<h2 class="c-method__heading">
+					We spent a decade perfecting our algorithm
+				</h2>
+
+				<!-- Steps -->
+				<div class="c-method__steps">
+					<!-- 01 -->
+					<div class="c-method__text">
+						<div class="c-method__number">01</div>
+						<h3 class="c-method__title">Hormone analysis</h3>
+						<p class="c-method__description">
+							Immerse yourself in cutting-edge Hormone Analysis, where our AI
+							delves into your body's unique chemistry. This AI-driven feature
+							tailors your workout plans with precision, optimizing each
+							session based on your individual hormonal profile. Uncover the
+							power of personalized fitness, crafted uniquely for you.
+						</p>
+					</div>
+					<div class="c-method__img">
+						<img src="img/method/method-1.jpg" alt="A young man using the app" width="720" loading="lazy">
+					</div>
+
+					<!-- 02 -->
+					<div class="c-method__text">
+						<div class="c-method__number">02</div>
+						<h3 class="c-method__title">Personal training</h3>
+						<p class="c-method__description">
+							Elevate your fitness journey with AI-driven Personal Training.
+							Our sophisticated algorithms analyze your progress and
+							preferences, tailoring dynamic workouts just for you. Seamlessly
+							blending human guidance with artificial intelligence, this
+							feature ensures every exercise aligns with your goals, providing
+							a uniquely personalized fitness experience.
+						</p>
+					</div>
+					<div class="c-method__img">
+						<img src="img/method/method-2.jpg" alt="A young man using the app" width="720" loading="lazy">
+					</div>
+
+					<!-- 03 -->
+					<div class="c-method__text">
+						<div class="c-method__number">03</div>
+						<h3 class="c-method__title">Nutrition</h3>
+						<p class="c-method__description">
+							Experience the future of nutrition with AI-enhanced guidance.
+							Our AI nutritionists analyze your preferences and health goals,
+							creating personalized plans that complement your fitness
+							routine. This AI-driven nutrition feature goes beyond calorie
+							counting, fostering a balanced and nourishing approach to
+							health. Embrace wellness with AI, where every meal is crafted to
+							support your fitness objectives.
+						</p>
+					</div>
+
+					<div class="c-method__img">
+						<img src="img/method/method-3.jpg" alt="A young man using the app" width="720" loading="lazy">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Component: Recipes -->
+		<section id="recipes" class="c-recipes u-section u-background-lighter">
+			<div class="u-container u-container--2xl">
+				<div class="c-subheading">Recipes</div>
+				<h2 class="c-recipes__heading">Our IA will make the best recipes</h2>
+
+				<div class="c-recipes__content">
+					<!-- Component: Card -->
+					<div class="c-card">
+						<img class="c-card__img" height="200" src="img/recipes/recipe-1.jpg"
+							alt="Pan Seared Salmon with Lemon-Dill Sauce" loading="lazy">
+						<div class="c-card__content">
+							<span class="c-card__badge c-card__badge--omnivore"><ion-icon name="fish"></ion-icon>
+								Omnivore</span>
+							<p class="c-card__title">
+								Pan Seared Salmon with Lemon-Dill Sauce
+							</p>
+							<ul class="c-card__info">
+								<li><span class="c-card__data-point">366</span> calories</li>
+								<li>
+									<span class="c-card__data-point">22g</span> of protein
+								</li>
+								<li><span class="c-card__data-point">31g</span> of fat</li>
+								<li>
+									<span class="c-card__data-point">1g</span> of carbohydrates
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Component: Card -->
+					<div class="c-card">
+						<img class="c-card__img" height="200" src="img/recipes/recipe-2.jpg"
+							alt="Quinoa and Black Bean Buddha Bowl" loading="lazy">
+						<div class="c-card__content">
+							<span class="c-card__badge c-card__badge--vegetarian"><ion-icon name="leaf"></ion-icon>
+								Vegetarian</span>
+							<p class="c-card__title">Quinoa and Black Bean Buddha Bowl</p>
+							<ul class="c-card__info">
+								<li><span class="c-card__data-point">375</span> calories</li>
+								<li>
+									<span class="c-card__data-point">17g</span> of protein
+								</li>
+								<li><span class="c-card__data-point">12g</span> of fat</li>
+								<li>
+									<span class="c-card__data-point">55g</span> of carbohydrates
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Component: Card -->
+					<div class="c-card">
+						<img class="c-card__img" height="200" src="img/recipes/recipe-3.jpg"
+							alt="Salmon with Lemon-Dill Sauce" loading="lazy">
+						<div class="c-card__content">
+							<span class="c-card__badge c-card__badge--omnivore"><ion-icon name="fish"></ion-icon>
+								Omnivore</span>
+							<p class="c-card__title">
+								Pan Seared Tuna with Citrus-Herb Vinaigrette
+							</p>
+							<ul class="c-card__info">
+								<li><span class="c-card__data-point">425</span> calories</li>
+								<li>
+									<span class="c-card__data-point">32g</span> of protein
+								</li>
+								<li><span class="c-card__data-point">12g</span> of fat</li>
+								<li>
+									<span class="c-card__data-point">27g</span> of carbohydrates
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- View more -->
+				<div class="c-recipes__more">
+					<a class="c-btn c-btn--lg" href="#">View more recipes &rarr;</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Component: Testimonials -->
+		<section id="testimonials" class="c-testimonials-gallery">
+			<!-- Testimonials -->
+			<div class="c-testimonials u-section">
+				<div class="u-container">
+					<div class="c-subheading">Client testimonials</div>
+					<h2 class="c-testimonials__heading">
+						Transformations speak for themselves
+					</h2>
+
+					<div class="c-testimonials__items">
+						<figure class="c-testimonials__item">
+							<img src="img/clients/client-1.jpg" alt="Client photo" width="160" height="160">
+							<figcaption>
+								<blockquote>
+									<p>
+										I've never felt stronger and more confident in my
+										workouts. Fit Adviser's AI-driven approach has truly
+										revolutionized my fitness journey.
+									</p>
+									<footer>&mdash; David White</footer>
+								</blockquote>
+							</figcaption>
+						</figure>
+
+						<figure class="c-testimonials__item">
+							<img src="img/clients/client-2.jpg" alt="Client photo" width="160" height="160">
+							<figcaption>
+								<blockquote>
+									<p>
+										Fit Adviser's personalized training plans have helped me
+										achieve my fitness goals faster than ever before. Highly
+										recommend!
+									</p>
+									<footer>&mdash; Michael Smith</footer>
+								</blockquote>
+							</figcaption>
+						</figure>
+
+						<figure class="c-testimonials__item">
+							<img height="200" src="img/clients/client-3.jpg" alt="Client photo" width="160" height="160">
+							<figcaption>
+								<blockquote>
+									<p>
+										I've tried many fitness apps before, but Fit Adviser
+										stands out for its personalized approach. It's like having
+										a personal trainer in my pocket!
+									</p>
+									<footer>&mdash; Sarah Wilson</footer>
+								</blockquote>
+							</figcaption>
+						</figure>
+
+						<figure class="c-testimonials__item">
+							<img height="200" src="img/clients/client-4.jpg" alt="Client photo" width="160" height="160">
+							<figcaption>
+								<blockquote>
+									<p>
+										I was sceptical at first, but Fit Adviser's AI-driven
+										nutrition guidance has completely transformed my
+										relationship with food and fitness. Thank you!
+									</p>
+									<footer>&mdash; John Evans</footer>
+								</blockquote>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			<!-- Gallery -->
+			<div class="c-gallery">
+				<div class="c-gallery__items">
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-1.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-2.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-3.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-4.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-5.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-6.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-7.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-8.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-9.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-10.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-11.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+					<figure class="c-gallery__item">
+						<img src="img/gallery/gallery-12.jpg" alt="Photo of training" loading="lazy">
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<!-- Component: Pricing -->
+		<section id="pricing" class="c-pricing u-section u-background-lighter">
+			<div class="u-container u-container--2xl">
+				<div class="c-subheading">Pricing</div>
+				<h2 class="c-pricing__heading">Start your fitness journey</h2>
+
+				<!-- Items  -->
+				<div class="c-pricing__items">
+					<!-- Plan 1 -->
+					<div class="c-pricing__item">
+						<h3 class="c-pricing__name">Basic Fitness</h3>
+						<p class="c-pricing__price"><strong>$29.99</strong></p>
+						<p class="c-pricing__per-month">per month</p>
+						<ul class="c-pricing__list">
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Tailored
+								workout plans
+							</li>
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Access to basic
+								nutrition guidance
+							</li>
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Weekly progress
+								tracking
+							</li>
+						</ul>
+						<button class="c-pricing__btn c-btn c-btn--lg">
+							Get started
+						</button>
+					</div>
+
+					<!-- Plan 2 -->
+					<div class="c-pricing__item c-pricing__item--featured">
+						<h3 class="c-pricing__name">Advanced Fitness</h3>
+						<p class="c-pricing__price"><strong>$49.99</strong></p>
+						<p class="c-pricing__per-month">per month</p>
+						<ul class="c-pricing__list">
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Personalized
+								AI-driven workout plans
+							</li>
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Comprehensive
+								nutrition guidance
+							</li>
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Daily progress
+								tracking and analysis
+							</li>
+						</ul>
+						<button class="c-pricing__btn c-btn c-btn--light c-btn--lg">
+							Get started
+						</button>
+					</div>
+
+					<!-- Plan 3 -->
+					<div class="c-pricing__item">
+						<h3 class="c-pricing__name">Elite Fitness</h3>
+						<p class="c-pricing__price"><strong>$79.99</strong></p>
+						<p class="c-pricing__per-month">per month</p>
+						<ul class="c-pricing__list">
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Advanced
+								AI-driven workout plans
+							</li>
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> Plan with
+								continuous optimization
+							</li>
+							<li>
+								<ion-icon name="checkmark-outline"></ion-icon> 24/7 support
+								from fitness experts
+							</li>
+						</ul>
+						<button class="c-pricing__btn c-btn c-btn--lg">
+							Get started
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Component: Features -->
+		<div class="c-features u-section">
+			<div class="u-container u-container--2xl">
+				<div class="c-features__items">
+					<!-- Feature 1 -->
+					<div class="c-features__item">
+						<ion-icon class="c-features__icon" name="git-branch-outline"></ion-icon>
+						<p class="c-features__title">Advanced AI</p>
+						<p class="c-features__description">
+							Dynamic workouts tailored by cutting-edge AI technology,
+							aligning exercises perfectly with your goals.
+						</p>
+					</div>
+
+					<!-- Feature 2 -->
+					<div class="c-features__item">
+						<ion-icon class="c-features__icon" name="nutrition-outline"></ion-icon>
+						<p class="c-features__title">Personalized plans</p>
+						<p class="c-features__description">
+							AI-enhanced nutrition guidance for a balanced, tailored approach
+							to health and fitness.
+						</p>
+					</div>
+
+					<!-- Feature 3 -->
+					<div class="c-features__item">
+						<ion-icon class="c-features__icon" name="barbell-outline"></ion-icon>
+						<p class="c-features__title">Continuous optimization</p>
+						<p class="c-features__description">
+							Real-time adjustments to your plan ensure constant progress
+							towards your goals.
+						</p>
+					</div>
+
+					<!-- Feature 4 -->
+					<div class="c-features_item">
+						<ion-icon class="c-features__icon" name="accessibility-outline"></ion-icon>
+						<p class="c-features__title">24/7 expert support</p>
+						<p class="c-features__description">
+							Round-the-clock guidance from our team of fitness experts,
+							ensuring you stay on track.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Component: CTA -->
+		<section id="cta" class="c-cta u-section">
+			<div class="u-container u-container--2xl">
+				<div class="c-cta__content">
+					<!-- Image -->
+					<div class="c-cta__image">
+						<div class="c-subheading">Free trial</div>
+						<h2 class="c-cta__heading">Take the next step</h2>
+						<p class="c-cta__description">
+							Begin your journey to better fitness today. Claim your free
+							trial to access personalized plans, continuous optimization, and
+							expert support.
+						</p>
+					</div>
+
+					<!-- Form -->
+					<form class="c-cta__form" action="#">
+						<div class="c-cta__inputs">
+							<div class="c-cta__input">
+								<label for="name">Full name</label>
+								<input type="text" id="name" placeholder="John Doe" required>
+							</div>
+
+							<div class="c-cta__input">
+								<label for="email">Email address</label>
+								<input type="email" id="email" placeholder="me@example.com" required>
+							</div>
+
+							<div class="c-cta__input">
+								<label for="where">Where did you hear about us?</label>
+								<select required id="where">
+									<option value="">Please select an option</option>
+									<option value="friend">Friend recommendation</option>
+									<option value="social">Social media</option>
+						<option value=" search">Online search</option>
+								</select>
+							</div>
+
+							<button type="submit" class="c-btn c-btn--lg">
+								Claim your free trial
+							</button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Module: Footer -->
+	<footer class="m-footer u-background-band-light">
+		<div class="u-container u-container--2xl">
+			<div class="m-footer__content">
+				<!-- Column 1-->
+				<div class="m-footer__column">
+					<!-- Logo -->
+					<div class="c-logo-footer">
+						<img class="c-logo-footer__img" src="img/logo.svg" alt="FIT ADVISER logo" width="205" height="24">
+					</div>
+
+					<!-- Copyright -->
+					<p class="c-copyright">
+						Made with ♥ by
+						<a href="https://www.linkedin.com/in/josenavarroortiz">Jose Navarro</a>
+					</p>
+
+					<!-- Social icons -->
+					<ul class="c-social-icons">
+						<li>
+							<a href="#" class="c-social-icons__icon" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+						</li>
+						<li>
+							<a href="#" class="c-social-icons__icon" aria-label="Pinterest">
+								<ion-icon name="logo-pinterest"></ion-icon>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="c-social-icons__icon" aria-label="LinkedIn">
+								<ion-icon name="logo-linkedin"></ion-icon>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="c-social-icons__icon" aria-label="YouTube">
+								<ion-icon name="logo-youtube"></ion-icon>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<!-- Column 2-->
+				<div class="m-footer__column">
+					<p class="u-h4">Contact us</p>
+					<address class="c-contact-us">
+						<p class="c-contact-us__item">123 Fitness Lane,</p>
+						<p class="c-contact-us__item">Wellness City, FIT 56789</p>
+						<p class="c-contact-us__item">
+							<a href="tel:+15551234567">+1 (555) 123-4567</a>
+						</p>
+						<p class="c-contact-us__item">
+							<a href="mailto:info@fitadviser.com">info@fitadviser.com</a>
+						</p>
+					</address>
+				</div>
+
+				<!-- Column 3-->
+				<div class="m-footer__column">
+					<p class="u-h4">Account</p>
+					<nav class="c-navigation-footer">
+						<ul class="c-navigation-footer__list">
+							<li><a href="#">Create account</a></li>
+							<li><a href="#">Sign in</a></li>
+							<li><a href="#">IOS app</a></li>
+							<li><a href="#">Android app</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<!-- Column 4-->
+				<div class="m-footer__column">
+					<p class="u-h4">Latest articles</p>
+					<nav class="c-navigation-footer">
+						<ul class="c-navigation-footer__list">
+							<li><a href="#">Where science meets strength</a></li>
+							<li><a href="#">Unleashing your genetic potential</a></li>
+							<li><a href="#">Your personal peak performance</a></li>
+							<li><a href="#">Elevate your fitness intelligence</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

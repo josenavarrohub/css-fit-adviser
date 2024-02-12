@@ -1,0 +1,255 @@
+/*******************************************
+ * Media queries
+ *******************************************/
+
+/* 
+ * ⚠️ The 62.5% font size trick does not apply to media queries.
+ * Media queries declarations always use the default
+ * browser font size (1rem = 16px).
+*/
+@media (min-width: 48rem) {
+  /*******************************************
+   * Components
+   *******************************************/
+
+  /* Hero */
+  .c-hero__content {
+    width: 60%;
+  }
+
+  /* Features */
+  .c-features__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 64rem) {
+  /*******************************************
+   * General styles 
+   *******************************************/
+  h1 {
+    font-size: 6.2rem;
+  }
+  h2 {
+    font-size: 5.2rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4,
+  .u-h4 {
+    font-size: 2rem;
+  }
+
+  /*******************************************
+   * Modules
+   *******************************************/
+
+  /* Footer */
+  .m-footer {
+    padding: 12.8rem 0;
+  }
+  .m-footer__content {
+    flex-direction: row;
+  }
+  .m-footer__column {
+    flex-basis: 25%;
+  }
+
+  /*******************************************
+   * Components
+   *******************************************/
+
+  /* Hero */
+  .c-hero__content {
+    width: 50%;
+  }
+  .c-hero__description {
+    font-size: 2.4rem;
+    margin-bottom: 6.4rem;
+  }
+  .c-hero__buttons {
+    flex-direction: row;
+    margin-bottom: 9.6rem;
+  }
+  .c-hero__clients-text {
+    font-size: 1.8rem;
+  }
+
+  /* Featured in */
+  .c-featured-in__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.4rem;
+  }
+  .c-featured-in img {
+    height: 3.2rem;
+  }
+
+  /* Method */
+  .c-method__heading {
+    margin-bottom: 9.6rem;
+  }
+  .c-method__steps {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 12.8rem;
+  }
+  .c-method__steps > div:nth-child(3) {
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .c-method__number,
+  .c-method__title {
+    margin-left: 8rem;
+  }
+  .c-method__img {
+    width: 47rem;
+    padding-bottom: 45rem; /* Height = width - borders */
+    margin-bottom: 0;
+  }
+
+  /* Recipes */
+  .c-recipes__heading {
+    margin-bottom: 9.6rem;
+  }
+  .c-recipes__content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Testimonials */
+  .c-testimonials__heading {
+    margin-bottom: 9.6rem;
+  }
+  .c-testimonials__items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Gallery */
+  .c-gallery__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Pricing */
+  .c-pricing__heading {
+    margin-bottom: 9.6rem;
+  }
+  .c-pricing__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Features */
+  .c-features__items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* CTA */
+  .c-cta__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .c-cta__form {
+    padding: 6.4rem 4.8rem;
+  }
+  .c-cta__inputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .c-cta__form button.c-btn--lg {
+    padding: 1.2rem 2.4rem;
+  }
+
+  /* Logo footer */
+  .c-logo-footer__img {
+    height: 2.4rem;
+  }
+
+  /* Btn */
+  .c-btn.c-btn--lg {
+    font-size: 2.4rem;
+    padding: 1.2rem 4rem;
+  }
+
+  /* Subheading */
+  .c-subheading {
+    text-align: center;
+  }
+
+  /*******************************************
+   * Utilities
+   *******************************************/
+  .u-section {
+    padding: 12.8rem 0;
+  }
+  .u-section--compact {
+    padding: 9.6rem 0;
+  }
+}
+
+@media (min-width: 80rem) {
+  /*******************************************
+   * Components
+   *******************************************/
+
+  /* Navigation */
+  .c-navigation {
+    font-size: 2rem;
+  }
+  .c-navigation__logo-img {
+    height: 3.2rem;
+  }
+  .c-navigation__menu {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+
+    /* Show menu */
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .c-navigation__menu-list {
+    flex-direction: row;
+    font-size: 1.8rem;
+  }
+  .c-navigation__mobile-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 96rem) {
+  /*******************************************
+   * Components
+   *******************************************/
+
+  /* Featured in */
+  .c-featured-in__list {
+    grid-template-columns: repeat(6, min-content);
+  }
+
+  /* Gallery */
+  .c-gallery__items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 120rem) {
+  /*******************************************
+	 * Components
+	 *******************************************/
+
+  /* Testimonials & Gallery */
+  .c-testimonials-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.6rem;
+  }
+
+  /* Gallery */
+  .c-gallery {
+    padding-left: 2.4rem;
+  }
+  .c-gallery__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
