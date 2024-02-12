@@ -344,7 +344,7 @@ select:focus,
   gap: 1.2rem;
 }
 .c-featured-in img {
-  height: 2.4rem;
+  height: 1.6rem;
 }
 .c-featured-in img:hover {
   cursor: pointer;
@@ -703,6 +703,7 @@ select:focus,
 .c-logo-footer__img {
   display: block;
   height: 1.6rem;
+  width: auto;
   transition: filter 0.3s;
 }
 
