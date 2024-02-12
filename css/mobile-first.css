@@ -216,6 +216,7 @@ select:focus,
 .c-navigation__logo-img {
   display: block;
   height: 2.4rem;
+  width: auto;
   transition: filter 0.3s;
 }
 .c-navigation__logo-img:hover {
