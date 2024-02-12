@@ -142,7 +142,6 @@ select:focus,
 
 /* Header */
 .m-header {
-  position: relative;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -227,7 +226,7 @@ select:focus,
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   z-index: 999;
