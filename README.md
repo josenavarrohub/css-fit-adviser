@@ -24,7 +24,7 @@ Web design for a fictitious company called "FIT ADVISER".
 * [CSS grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
 * [Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Deployment
+## Deployment (CI/CD)
 * [netlify](https://www.netlify.com/)
 
 ## Colour palette and icons
