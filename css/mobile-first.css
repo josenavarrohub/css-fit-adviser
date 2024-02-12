@@ -239,7 +239,7 @@ select:focus,
   opacity: 0; /* Hidden */
   pointer-events: none; /* Avoids pointer events */
   visibility: hidden; /* Not accessible for screen readers */
-  transform: translateX(100%);
+  /* transform: translateX(100%); */
   transition: all 0.3s;
 }
 .menu-open .c-navigation__menu {
@@ -341,7 +341,7 @@ select:focus,
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2.4rem;
+  gap: 1.2rem;
 }
 .c-featured-in img {
   height: 2.4rem;
