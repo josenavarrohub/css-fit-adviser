@@ -345,6 +345,7 @@ select:focus,
 }
 .c-featured-in img {
   height: 1.6rem;
+  width: auto;
 }
 .c-featured-in img:hover {
   cursor: pointer;
