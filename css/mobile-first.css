@@ -341,10 +341,10 @@ select:focus,
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.2rem;
+  gap: 2.4rem;
 }
 .c-featured-in img {
-  height: 1.6rem;
+  height: 2.4rem;
   width: auto;
 }
 .c-featured-in img:hover {
